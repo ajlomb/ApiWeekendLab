@@ -19,14 +19,17 @@
         />
 
     <Button
+        android:text="Query"
         android:id="@+id/button_search"
-        android:layout_width="75dp"
+        android:layout_width="match_parent"
         android:layout_height="75dp"
         android:layout_below="@+id/search_field"
         android:layout_alignParentRight="true"
         android:onClick="doSearch"/>
 
     <ImageView
+        android:padding="5dp"
+        android:background="#000000"
         android:id="@+id/image_view_main"
         android:layout_width="match_parent"
         android:layout_height="350dp"
